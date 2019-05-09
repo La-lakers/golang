@@ -1,7 +1,7 @@
 // models project models.go
 package models
 
-type RawAlarm struct {
+type AlarmList struct {
 	Service string
 	Item    string
 	Content string
@@ -9,7 +9,7 @@ type RawAlarm struct {
 	Date    string
 }
 
-type HandleDetail struct {
+type AlarmDealList struct {
 	Service    string
 	Item       string
 	Trouble    int
