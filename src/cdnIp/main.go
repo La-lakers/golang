@@ -11,4 +11,5 @@ func main() {
 	fmt.Println(now)
 	st := now.Format("2006-01-02")
 	fmt.Println(st)
+
 }
